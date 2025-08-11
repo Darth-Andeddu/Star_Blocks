@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "starblocksmod:kyber_crystal"
+    }
+  },
+  "result": {
+    "item": "starblocksmod:kyber_crystal_block"
+  }
+}

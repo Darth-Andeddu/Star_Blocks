@@ -1,6 +1,9 @@
 package net.haminacam.starblocksmod;
 
 import com.mojang.logging.LogUtils;
+import net.haminacam.starblocksmod.block.ModBlocks;
+import net.haminacam.starblocksmod.item.ModCreativeModeTabs;
+import net.haminacam.starblocksmod.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -24,6 +27,11 @@ public class StarBlocksMod {
 
     public StarBlocksMod(FMLJavaModLoadingContext context){
         IEventBus modEventBus = context.getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "starblocksmod:durasteel_block"
+    }
+  ],
+  "result": {
+    "item": "starblocksmod:durasteel_ingot",
+    "count": 9
+  }
+}

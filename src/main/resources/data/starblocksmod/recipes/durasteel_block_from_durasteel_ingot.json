@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "starblocksmod:durasteel_ingot"
+    }
+  },
+  "result": {
+    "item": "starblocksmod:durasteel_block"
+  }
+}
