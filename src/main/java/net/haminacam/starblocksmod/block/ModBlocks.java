@@ -1,6 +1,7 @@
 package net.haminacam.starblocksmod.block;
 
 import net.haminacam.starblocksmod.StarBlocksMod;
+import net.haminacam.starblocksmod.block.custom.SoundBlock;
 import net.haminacam.starblocksmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -42,9 +43,12 @@ public static final RegistryObject<Block> KYBER_CRYSTAL_ORE = registerBlock("kyb
         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                 .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(4, 7)));
 
-    public static final RegistryObject<Block> DEEPSLATE_KYBER_CRYSTAL_ORE = registerBlock("deepslate_kyber_crystal_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
-                    .strength(6f).requiresCorrectToolForDrops(), UniformInt.of(4, 8)));
+public static final RegistryObject<Block> DEEPSLATE_KYBER_CRYSTAL_ORE = registerBlock("deepslate_kyber_crystal_ore",
+        () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
+                .strength(6f).requiresCorrectToolForDrops(), UniformInt.of(4, 8)));
+
+public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+        () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
 
 private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){

@@ -33,7 +33,7 @@ public class StarBlocksMod {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
-        // Register the commonSetup method for modloading
+        // Register the commonSetup method for modloadings
         modEventBus.addListener(this::commonSetup);
 
         // Register ourselves for server and other game events we are interested in

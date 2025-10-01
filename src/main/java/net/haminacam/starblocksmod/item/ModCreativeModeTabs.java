@@ -32,6 +32,14 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.DEEPSLATE_DURASTEEL_ORE.get());
                         pOutput.accept(ModBlocks.KYBER_CRYSTAL_ORE.get());
                         pOutput.accept(ModBlocks.DEEPSLATE_KYBER_CRYSTAL_ORE.get());
+
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
+
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
+
+                        pOutput.accept(ModItems.STRAWBERRY.get());
+
+                        pOutput.accept(ModItems.PINE_CONE.get());
                     })
                     .build());
 

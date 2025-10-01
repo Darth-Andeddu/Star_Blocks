@@ -1,0 +1,9 @@
+{
+  "values": [
+    "starblocksmod:durasteel_ore",
+    "starblocksmod:deepslate_durasteel_ore",
+    "starblocksmod:kyber_crystal_ore",
+    "starblocksmod:deepslate_kyber_crystal_ore",
+    "#forge:ores"
+  ]
+}

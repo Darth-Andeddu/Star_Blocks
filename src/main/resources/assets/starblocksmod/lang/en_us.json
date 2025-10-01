@@ -3,6 +3,10 @@
   "item.starblocksmod.credit": "Credit",
   "item.starblocksmod.durasteel_ingot": "Durasteel ingot",
   "item.starblocksmod.raw_durasteel": "Raw Durasteel",
+  "item.starblocksmod.metal_detector": "Metal Detector",
+  "item.starblocksmod.strawberry": "Strawberry",
+
+  "item.starblocksmod.pine_cone": "Pine Cone",
 
   "block.starblocksmod.durasteel_block": "Durasteel Block",
   "block.starblocksmod.raw_durasteel_block": "Raw Durasteel Block",
@@ -12,6 +16,11 @@
   "block.starblocksmod.deepslate_durasteel_ore": "Deepslate Durasteel Ore",
   "block.starblocksmod.kyber_crystal_ore": "Kyber Crystal Ore",
   "block.starblocksmod.deepslate_kyber_crystal_ore": "Deepslate Kyber Crystal Ore",
+
+  "block.starblocksmod.sound_block": "Sound Block",
+
+  "tooltip.starblocksmod.metal_detector.tooltip": "Finds valuables underground!",
+
 
 
   "creativetab.star_blocks_tab": "Star Blocks Tab"
