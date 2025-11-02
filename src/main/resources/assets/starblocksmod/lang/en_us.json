@@ -3,10 +3,9 @@
   "item.starblocksmod.credit": "Credit",
   "item.starblocksmod.durasteel_ingot": "Durasteel ingot",
   "item.starblocksmod.raw_durasteel": "Raw Durasteel",
-  "item.starblocksmod.metal_detector": "Metal Detector",
-  "item.starblocksmod.strawberry": "Strawberry",
 
-  "item.starblocksmod.pine_cone": "Pine Cone",
+  "item.starblocksmod.light_saber": "Light Saber",
+  "item.starblocksmod.vibroblade": "Vibro-Blade",
 
   "block.starblocksmod.durasteel_block": "Durasteel Block",
   "block.starblocksmod.raw_durasteel_block": "Raw Durasteel Block",
@@ -17,9 +16,13 @@
   "block.starblocksmod.kyber_crystal_ore": "Kyber Crystal Ore",
   "block.starblocksmod.deepslate_kyber_crystal_ore": "Deepslate Kyber Crystal Ore",
 
-  "block.starblocksmod.sound_block": "Sound Block",
-
-  "tooltip.starblocksmod.metal_detector.tooltip": "Finds valuables underground!",
+  "block.starblocksmod.durasteel_stairs": "Durasteel Stairs",
+  "block.starblocksmod.durasteel_slab": "Durasteel Slab",
+  "block.starblocksmod.durasteel_button": "Durasteel Button",
+  "block.starblocksmod.durasteel_pressure_plate": "Durasteel Pressure Plate",
+  "block.starblocksmod.durasteel_fence": "Durasteel Fence",
+  "block.starblocksmod.durasteel_fence_gate": "Durasteel Fence Gate",
+  "block.starblocksmod.durasteel_wall": "Durasteel Wall",
 
 
 

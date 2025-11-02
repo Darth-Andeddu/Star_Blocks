@@ -21,8 +21,6 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
-        this.tag(ModTags.Blocks.METAL_DETECTOR_VALUABLES)
-                .add(ModBlocks.KYBER_CRYSTAL_ORE.get()).addTag(Tags.Blocks.ORES);
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE).add(
                 ModBlocks.DURASTEEL_BLOCK.get(),
@@ -31,8 +29,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 ModBlocks.DEEPSLATE_DURASTEEL_ORE.get(),
                 ModBlocks.KYBER_CRYSTAL_BLOCK.get(),
                 ModBlocks.KYBER_CRYSTAL_ORE.get(),
-                ModBlocks.DEEPSLATE_KYBER_CRYSTAL_ORE.get(),
-                ModBlocks.SOUND_BLOCK.get()
+                ModBlocks.DEEPSLATE_KYBER_CRYSTAL_ORE.get()
         );
 
         this.tag(BlockTags.NEEDS_IRON_TOOL).add(
@@ -46,5 +43,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 ModBlocks.KYBER_CRYSTAL_ORE.get(),
                 ModBlocks.DEEPSLATE_KYBER_CRYSTAL_ORE.get()
         );
+
+        this.tag(BlockTags.FENCES).add(ModBlocks.DURASTEEL_FENCE.get());
+        this.tag(BlockTags.FENCE_GATES).add(ModBlocks.DURASTEEL_FENCE_GATE.get());
+        this.tag(BlockTags.WALLS).add(ModBlocks.DURASTEEL_WALL.get());
     }
 }

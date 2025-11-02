@@ -33,13 +33,16 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.KYBER_CRYSTAL_ORE.get());
                         pOutput.accept(ModBlocks.DEEPSLATE_KYBER_CRYSTAL_ORE.get());
 
-                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
+                        pOutput.accept(ModBlocks.DURASTEEL_STAIRS.get());
+                        pOutput.accept(ModBlocks.DURASTEEL_SLAB.get());
+                        pOutput.accept(ModBlocks.DURASTEEL_BUTTON.get());
+                        pOutput.accept(ModBlocks.DURASTEEL_PRESSURE_PLATE.get());
+                        pOutput.accept(ModBlocks.DURASTEEL_FENCE.get());
+                        pOutput.accept(ModBlocks.DURASTEEL_FENCE_GATE.get());
+                        pOutput.accept(ModBlocks.DURASTEEL_WALL.get());
 
-                        pOutput.accept(ModItems.METAL_DETECTOR.get());
-
-                        pOutput.accept(ModItems.STRAWBERRY.get());
-
-                        pOutput.accept(ModItems.PINE_CONE.get());
+                        pOutput.accept(ModItems.LIGHT_SABER.get());
+                        pOutput.accept(ModItems.VIBROBLADE.get());
                     })
                     .build());
 
@@ -47,5 +50,4 @@ public class ModCreativeModeTabs {
     public static void register(IEventBus eventBus){
         CREATIVE_MODE_TABS.register(eventBus);
     }
-
 }

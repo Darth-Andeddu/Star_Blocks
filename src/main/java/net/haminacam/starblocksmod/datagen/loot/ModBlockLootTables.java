@@ -3,7 +3,6 @@ package net.haminacam.starblocksmod.datagen.loot;
 import net.haminacam.starblocksmod.block.ModBlocks;
 import net.haminacam.starblocksmod.item.ModItems;
 import net.minecraft.data.loot.BlockLootSubProvider;
-import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.enchantment.Enchantments;
@@ -27,7 +26,6 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.DURASTEEL_BLOCK.get());
         this.dropSelf(ModBlocks.KYBER_CRYSTAL_BLOCK.get());
         this.dropSelf(ModBlocks.RAW_DURASTEEL_BLOCK.get());
-        this.dropSelf(ModBlocks.SOUND_BLOCK.get());
 
         this.add(ModBlocks.DURASTEEL_ORE.get(),
                 block -> createOreDrops(ModBlocks.DURASTEEL_ORE.get(), ModItems.RAW_DURASTEEL.get()));
@@ -37,6 +35,17 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 block -> createOreDrops(ModBlocks.KYBER_CRYSTAL_ORE.get(), ModItems.KYBER_CRYSTAL.get()));
         this.add(ModBlocks.DEEPSLATE_KYBER_CRYSTAL_ORE.get(),
                 block -> createOreDrops(ModBlocks.DEEPSLATE_KYBER_CRYSTAL_ORE.get(), ModItems.KYBER_CRYSTAL.get()));
+
+        this.dropSelf(ModBlocks.DURASTEEL_STAIRS.get());
+        this.dropSelf(ModBlocks.DURASTEEL_BUTTON.get());
+        this.dropSelf(ModBlocks.DURASTEEL_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.DURASTEEL_FENCE.get());
+        this.dropSelf(ModBlocks.DURASTEEL_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.DURASTEEL_WALL.get());
+
+        this.add(ModBlocks.DURASTEEL_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.DURASTEEL_SLAB.get()));
+
     }
 
     protected LootTable.Builder createOreDrops(Block pBlock, Item item){

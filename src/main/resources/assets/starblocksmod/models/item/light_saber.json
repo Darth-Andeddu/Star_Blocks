@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "starblocksmod:item/light_saber_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "starblocksmod:item/light_saber_2d"
+    },
+    "ground": {
+      "parent": "starblocksmod:item/light_saber_2d"
+    },
+    "fixed": {
+      "parent": "starblocksmod:item/light_saber_2d"
+    }
+  }
+}
