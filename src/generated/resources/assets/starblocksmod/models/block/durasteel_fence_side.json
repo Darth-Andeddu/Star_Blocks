@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "starblocksmod:block/durasteel_block"
+  }
+}

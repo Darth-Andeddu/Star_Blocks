@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "starblocksmod:block/durasteel_slab"
+    },
+    "type=double": {
+      "model": "starblocksmod:block/durasteel_block"
+    },
+    "type=top": {
+      "model": "starblocksmod:block/durasteel_slab_top"
+    }
+  }
+}

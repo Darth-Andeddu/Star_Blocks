@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "starblocksmod:block/durasteel_pressure_plate"
+    },
+    "powered=true": {
+      "model": "starblocksmod:block/durasteel_pressure_plate_down"
+    }
+  }
+}

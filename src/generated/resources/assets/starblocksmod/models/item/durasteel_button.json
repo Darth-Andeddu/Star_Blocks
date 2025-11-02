@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "starblocksmod:block/durasteel_block"
+  }
+}

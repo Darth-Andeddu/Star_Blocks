@@ -1,0 +1,8 @@
+// 1.20.1	2025-10-11T21:19:57.921369	Tags for minecraft:block mod id starblocksmod
+440ee51e7753dcaa02e6fa7c1a9c5c5a8876bcea data/minecraft/tags/blocks/fences.json
+089ea3309ac72b2e420299271ac1404501e9b03c data/minecraft/tags/blocks/fence_gates.json
+7e6e5a5acbc4fe16757bc2e8462e97ce544c0176 data/minecraft/tags/blocks/mineable/pickaxe.json
+5f72ffb412414d89eb7ea02cbc0524f8309371d9 data/minecraft/tags/blocks/needs_diamond_tool.json
+ba85cdc51855245934247d7bfdd130d6c54af3dd data/minecraft/tags/blocks/needs_iron_tool.json
+241e896f61ecbbf98e1853d82035fd2ed03b988c data/minecraft/tags/blocks/walls.json
+7b75d649aac5a30c88ebbea6dc92fa018e8988b9 data/starblocksmod/tags/blocks/metal_detector_valuables.json

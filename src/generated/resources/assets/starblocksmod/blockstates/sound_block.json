@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "starblocksmod:block/sound_block"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "starblocksmod:block/durasteel_block",
+    "side": "starblocksmod:block/durasteel_block",
+    "top": "starblocksmod:block/durasteel_block"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "durasteel_ingot",
+  "ingredient": {
+    "item": "starblocksmod:raw_durasteel"
+  },
+  "result": "starblocksmod:durasteel_ingot"
+}
